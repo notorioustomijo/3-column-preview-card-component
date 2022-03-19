@@ -1,0 +1,122 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button {
+  padding: 16px 16px;
+  width: 60%;
+  margin-top: 1rem;
+  border-radius: 50px;
+  border-style: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700; }
+  button:hover {
+    color: rgba(255, 255, 255, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    background-color: transparent; }
+
+.first-button {
+  color: #e38826; }
+
+.second-button {
+  color: #006970; }
+
+.third-button {
+  color: #004241; }
+
+body {
+  font-size: 15px; }
+  body h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #f2f2f2; }
+  body p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+    color: rgba(255, 255, 255, 0.75); }
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.column-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 65%;
+  height: 100vh; }
+
+cards {
+  height: 100%; }
+
+.firstcard {
+  background-color: #e38826;
+  border-radius: 10px 0px 0px 10px; }
+
+.secondcard {
+  background-color: #006970; }
+
+.thirdcard {
+  background-color: #004241;
+  border-radius: 0px 10px 10px 0px; }
+
+.card-content {
+  margin: 4rem 3rem 4rem 2rem; }
+
+.card-info {
+  margin: 0rem 0rem 4rem 0rem; }
+
+/*# sourceMappingURL=main.css.map */

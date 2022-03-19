@@ -1,0 +1,29 @@
+body {
+    font-size: 15px;
+
+    h2 {
+        font: {
+            family:'Big Shoulders Display', cursive;
+            weight: 700;
+            size: 2rem;
+        }
+
+        margin: 1rem 0;
+        color: map-get($neutrals, light-gray);
+    }
+
+    p {
+        font: {
+            family: 'Lexend Deca', sans-serif;
+            weight: 400;
+            size: 1rem;
+        }
+
+        line-height: 1.5rem;
+
+        margin: 1.5rem 0;
+
+        color: map-get($neutrals, tran-white );
+    }
+
+}

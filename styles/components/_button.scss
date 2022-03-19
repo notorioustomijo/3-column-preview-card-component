@@ -1,0 +1,31 @@
+button {
+    padding: 16px 16px;
+    width: 60%;
+    margin-top: 1rem;
+    border-radius: 50px;
+    border-style: none;
+
+    font: {
+        family: 'Lexend Deca', sans-serif;
+        weight: 700;
+    }
+
+    &:hover {
+       color: map-get($neutrals, tran-white);
+       border: 2px solid (map-get($neutrals, tran-white));
+       cursor: pointer;
+       background-color: transparent;
+    }
+}
+
+.first-button {
+    color: map-get($pry-colors, bright-orange);
+}
+
+.second-button{
+    color: map-get($pry-colors, dark-cyan);
+}
+
+.third-button {
+    color: map-get($pry-colors, v-dark-cyan);
+}
