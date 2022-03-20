@@ -71,6 +71,8 @@ button {
 
 body {
   font-size: 15px; }
+  body h1 {
+    display: none; }
   body h2 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
